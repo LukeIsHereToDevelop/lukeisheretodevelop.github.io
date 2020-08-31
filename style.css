@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    width:100%;
+    height: 100%;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.box {
+    text-align: center;
+    background-color: white;
+    border: 5px linear-gradient(90deg, rgba(200,6,170,1) 32%, rgba(29,252,253,1) 87%);;
+    border-radius: 10px;
+    margin: auto;
+    width: 15em;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 300px;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 40px;
+}
+
+.a-discord {
+    font-family: 'Roboto', sans-serif;
+}
+
+.a-youtube {
+    font-family: 'Roboto', sans-serif;
+}
+
+.a-github {
+    font-family: 'Roboto', sans-serif;
+}
