@@ -16,7 +16,7 @@ body {
 .writes {
     text-align: center;
     background-color: white;
-    border: 5px linear-gradient(90deg, rgba(200,6,170,1) 32%, rgba(29,252,253,1) 87%);;
+    border: 5px linear-gradient(90deg, rgba(200,6,170,1) 32%, rgba(29,252,253,1) 87%);
     border-radius: 10px;
     margin: auto;
     width: 15em;
