@@ -1,0 +1,18 @@
+{
+  "name": "eris-commands-template",
+  "version": "0.0.1",
+  "description": "A simple commands template for Discord library Eris.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Christian Vishnevsky",
+  "dependencies": {
+    "eris": "^0.14.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": []
+}
