@@ -1,6 +1,7 @@
 const Eris = require("eris"); // Importing eris library to our code
+const TOKEN = ""; // put your bot token here
 
-const bot = new Eris.CommandClient(token.TOKEN, {}, { // Don't forget to put you token instead of token.TOKEN
+const bot = new Eris.CommandClient(TOKEN, {}, { // Don't forget to put you token instead of token.TOKEN
    description: "Discord bot using Eris", // Put your bot description here
    owner: "You", // Put your owner name etc
    prefix: "+" // Put your prefix here
